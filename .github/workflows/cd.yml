@@ -7,6 +7,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - uses: yoanbernabeu/phpqa-with-tools
+            - uses: docker://yoanbernabeu/phpqa-with-tools
             - name: Composer Install
               run: composer install
