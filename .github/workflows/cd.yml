@@ -6,6 +6,6 @@ jobs:
     ci:
         runs-on: ubuntu-latest
         steps:
-            uses: actions/shivammathur
-            name: LS
-            run: ls 
+            - uses: actions/shivammathur
+            - name: LS
+                run: ls 
