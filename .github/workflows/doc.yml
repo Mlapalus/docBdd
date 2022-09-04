@@ -1,0 +1,12 @@
+name: doc
+on: push:
+    
+jobs:
+    doc-bdd:
+        runs-on: ubuntu-latest
+        container:
+            image: yoanbernabeu/phpqa-with-tools:latest
+            steps:
+                - uses: actions/checkout@v2
+                - name: LS
+                  run: ls
