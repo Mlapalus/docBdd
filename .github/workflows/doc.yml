@@ -1,5 +1,5 @@
 name: doc
-on: push:
+on: push
     
 jobs:
     doc-bdd:
